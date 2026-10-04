@@ -1,0 +1,12 @@
+{
+  "name": "nivora-community-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Resident community platform preview with a NestJS and MongoDB API starter.",
+  "scripts": {
+    "preview": "node preview-server.mjs",
+    "api:install": "npm --prefix backend install",
+    "api:dev": "npm --prefix backend run start:dev",
+    "api:build": "npm --prefix backend run build"
+  }
+}

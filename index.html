@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#5948d6" />
+  <title>Nivora — Community, made simpler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="features.css" />
+</head>
+<body>
+  <main class="auth-screen" id="authScreen">
+    <section class="auth-story">
+      <a class="auth-brand" href="#"><span class="brand-mark">n</span><span>nivora</span></a>
+      <div class="auth-story-copy"><span class="auth-eyebrow">YOUR COMMUNITY, CLOSER</span><h1>Everything around home, together.</h1><p>Stay connected to your neighbors, visitors, services, and the everyday life of your community.</p><div class="auth-highlights"><span><i>✓</i> Visitor approvals</span><span><i>✓</i> Community updates</span><span><i>✓</i> Home and household services</span></div></div>
+      <div class="auth-orbit orbit-one"></div><div class="auth-orbit orbit-two"></div><div class="auth-story-footer">A calmer way to manage community life.</div>
+    </section>
+    <section class="auth-form-area"><div class="auth-card"><div class="auth-card-mark">n</div><span class="auth-card-kicker">RESIDENT PORTAL</span><h2 id="authTitle">Welcome back</h2><p class="auth-subtitle" id="authSubtitle">Sign in to continue to your community.</p><div class="auth-message" id="authMessage" role="alert" hidden></div><form id="authForm"><div id="authFields"></div><button class="primary-button auth-submit" type="submit" id="authSubmit">Sign in <span>→</span></button></form><div class="auth-switch"><span id="authSwitchText">New to your community?</span><button class="auth-mode-toggle" id="authModeToggle" type="button">Create an account</button></div><p class="auth-privacy">Your account connects securely to your community.</p></div><span class="auth-copyright">© Nivora · Resident community platform</span></section>
+  </main>
+  <div class="app-shell" hidden>
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard" aria-label="Nivora home"><span class="brand-mark">n</span><span>nivora</span></a>
+      <div class="society-picker"><span class="society-icon">⌂</span><span><b>Your community</b><small>Resident portal</small></span><span class="chevron">⌄</span></div>
+      <div class="nav-label">WORKSPACE</div>
+      <nav class="nav-list" aria-label="Main navigation">
+        <button class="nav-item active" data-page="Dashboard"><span class="nav-icon">◫</span>Dashboard</button>
+        <button class="nav-item" data-page="Visitors"><span class="nav-icon">♙</span>Visitors</button>
+        <button class="nav-item" data-page="MyPasses"><span class="nav-icon">▣</span>My passes</button>
+        <button class="nav-item" data-page="Payments"><span class="nav-icon">₹</span>Payments</button>
+        <button class="nav-item" data-page="Security"><span class="nav-icon">◈</span>Security</button>
+        <button class="nav-item" data-page="Exit permissions"><span class="nav-icon">↗</span>Exit permissions</button>
+        <button class="nav-item" data-page="Help desk"><span class="nav-icon">▤</span>Help desk</button>
+        <div class="nav-label nav-label-spaced">YOUR COMMUNITY</div>
+        <button class="nav-item" data-page="Ask Society"><span class="nav-icon">☷</span>Ask society</button>
+        <button class="nav-item" data-page="Notice board"><span class="nav-icon">▧</span>Notice board</button>
+        <button class="nav-item" data-page="Directory"><span class="nav-icon">▦</span>Directory</button>
+        <button class="nav-item" data-page="Home planner"><span class="nav-icon">◷</span>Home planner</button>
+        <button class="nav-item" data-page="Rent a parking"><span class="nav-icon">▤</span>Rent a parking</button>
+        <button class="nav-item" data-page="Manage locks"><span class="nav-icon">▣</span>Manage locks</button>
+        <button class="nav-item" data-page="Elections & surveys"><span class="nav-icon">✓</span>Elections &amp; surveys</button>
+        <button class="nav-item" data-page="Communications"><span class="nav-icon">✉</span>Communications</button>
+        <button class="nav-item" data-page="My complex"><span class="nav-icon">⌂</span>My complex</button>
+        <button class="nav-item" data-page="Notifications"><span class="nav-icon">♧</span>Notifications</button>
+        <button class="nav-item" data-page="Search residents"><span class="nav-icon">⌕</span>Search residents</button>
+        <button class="nav-item" data-page="Marketplace"><span class="nav-icon">◇</span>Marketplace</button>
+        <button class="nav-item" data-page="Homes"><span class="nav-icon">⌂</span>Homes</button>
+        <button class="nav-item" data-page="Services"><span class="nav-icon">✳</span>Services</button>
+        <button class="nav-item" data-page="Trending services"><span class="nav-icon">↗</span>Trending services</button>
+        <button class="nav-item" data-page="Urban Company"><span class="nav-icon">✳</span>Urban Company</button>
+        <button class="nav-item" data-page="Additional services"><span class="nav-icon">＋</span>Additional services</button>
+        <button class="nav-item" data-page="Support & feedback"><span class="nav-icon">♡</span>Support &amp; feedback</button>
+      </nav>
+      <div class="sidebar-bottom"><button class="nav-item" data-page="Documents"><span class="nav-icon">▱</span>Documents</button><button class="nav-item" data-page="Settings"><span class="nav-icon">⚙</span>Settings</button><button class="nav-item" data-page="Account management"><span class="nav-icon">◎</span>Account management</button><button class="nav-item" data-page="Logout"><span class="nav-icon">↪</span>Log out</button><div class="profile-mini"><div class="avatar">↪</div><span><b>Sign in</b><small>Connect to your community</small></span><button class="more" aria-label="Profile menu">···</button></div></div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar"><button class="mobile-menu" id="menuToggle" aria-label="Open menu">☰</button><div class="breadcrumb">Community <span>/</span> <b id="currentPage">Dashboard</b></div><div class="top-actions"><label class="search-box"><span>⌕</span><input id="searchInput" placeholder="Search features or residents..." /><kbd>⌘ K</kbd></label><button class="icon-button notification-button" aria-label="Notifications">♧</button><button class="avatar top-avatar" id="accountButton" aria-label="Sign in or manage account">↪</button></div></header>
+      <div class="content-wrap" id="dashboardPage"></div>
+      <div class="feature-page" id="featurePage" hidden></div>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <dialog class="modal" id="actionModal"><form id="actionForm"><div class="modal-head"><div><div class="section-kicker">COMMUNITY · QUICK ACTION</div><h2 id="actionTitle">Add details</h2></div><button class="close-modal" type="button" aria-label="Close" onclick="document.getElementById('actionModal').close()">×</button></div><div id="actionFields"></div><button class="primary-button modal-submit" type="submit">Save to community <span>→</span></button><small class="secure-note">Your entry is sent to the connected Nivora API.</small></form></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
+
