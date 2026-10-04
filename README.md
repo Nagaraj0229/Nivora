@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nivora community platform
 
 Nivora is a resident-facing community dashboard with a responsive interface and a NestJS/MongoDB API starter.
@@ -23,3 +24,6 @@ Dashboard, visitor approvals and passes, payments, security and child exit permi
 ## Integration status
 
 The frontend reads and writes community records through the NestJS API and MongoDB. Razorpay checkout supports test mode when rotated credentials are configured. Documents currently store metadata only; security alerts are saved to MongoDB but do not yet send push or live gate notifications. Configure file storage, password-reset mail and a notification provider before using those external functions with residents.
+=======
+# Nivora
+>>>>>>> d763521e639ea1bc9430ed652f9802aa6a557389
